@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fafafa</color>
+    <color name="grey">#e0e0e0</color>
+    <color name="dark_grey">#b0b0b0</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="pink">#ff00ff</color>
+
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#2196F3</color>
+    <color name="fa_white">#fafafa</color>
+    <color name="dark_toolbar">#202124</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="intel_blue">#0071c5</color>
+    <color name="black">#000000</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="shutter">@color/white</color>
+    <color name="shutter_pressed">@color/dark_grey</color>
+    <color name="shutter_disabled">#212121</color>
+
+    <color name="photo">@color/blue</color>
+
+    <color name="video">@color/red</color>
+    <color name="video_stop">#E57373</color>
+
+    <color name="on_viewfinder_label_background_color">#212121</color>
+    <color name="camera_control_bg_opaque">@color/black</color>
+    <color name="camera_control_bg_transparent">#90212121</color>
+
+</resources>

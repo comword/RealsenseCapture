@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tri-D Capture</string>
+    <string name="app_settings">settings</string>
+    <string name="accessibility_shutter_button">Shutter</string>
+    <string name="accessibility_menu_button">Menu button</string>
+
+    <string name="initial_recording_seconds">00:00</string>
+    <string name="time_lapse_title">Time lapse recording</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="preferences_about">About</string>
+    <string name="preferences_app_version">App version</string>
+    <string name="preferences_lib_version">librealsense version</string>
+
+    <string name="firmware_update_diag_title">It\'s time to update</string>
+    <string name="firmware_update_diag_update">Update</string>
+    <string name="firmware_update_diag_later">Skip</string>
+    <string name="firmware_update_diag_in_progress">Firmware update in progress</string>
+
+    <string name="msg_log_copied">Copied</string>
+    <string name="title_settings_activity">Settings</string>
+    <string name="title_logcat_activity">Logcat</string>
+
+    <string name="show_update_firmware">show_update_firmware</string>
+    <string name="firmware_update_request">firmware_update_request</string>
+    <string name="firmware_update_required">firmware_update_required</string>
+    <string name="firmware_update_file_path">firmware_update_file_path</string>
+    <string name="dialog_server_ip_address">IP address</string>
+    <string name="dialog_port">Port</string>
+    <string name="preferences_server_conf">Server</string>
+    <string name="preferences_network">Network</string>
+    <string name="preferences_camera">Camera device</string>
+    <string name="connect_a_realsense_camera">Waiting RealSense camera</string>
+    <string name="preferences_firmware_update">Firmware update</string>
+
+    <string name="pref_enabled">Enabled</string>
+    <string name="pref_disabled">Disabled</string>
+
+    <string name="title_playback">Playback</string>
+    <string name="title_file_list">Recordings</string>
+    <string name="empty_file_message">No recording file found.</string>
+    <string name="select_file_message">Select a file to playback.</string>
+
+    <string name="menu_select">Select</string>
+    <string name="menu_upload">Upload</string>
+    <string name="menu_delete">Delete</string>
+
+    <string name="dialog_confirm">Confirmation</string>
+    <string name="dialog_send_msg">Send selected item?</string>
+    <string name="dialog_delete_msg">Delete selected item?</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+
+    <string name="dialog_file_upload_msg">Uploading</string>
+    <string name="hint_resolution">Resolution</string>
+    <string name="hint_frame_rate">Frame Rate</string>
+    <string name="hint_format">Format</string>
+    <string name="failed_start_streaming">Failed to start streaming</string>
+
+</resources>

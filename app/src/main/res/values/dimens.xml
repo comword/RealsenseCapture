@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="shutter_offset">11dp</dimen>
+    <dimen name="thumb_offset">30dp</dimen>
+    <dimen name="shutter_offset_top">2dp</dimen>
+    <dimen name="shutter_size">80dp</dimen>
+    <dimen name="menu_outer_size">80dp</dimen>
+    <dimen name="capture_size">48dip</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="preview_top_margin">20dp</dimen>
+    <dimen name="preview_bottom_margin">103dp</dimen>
+    <dimen name="preview_marginBottom">40dp</dimen>
+
+    <dimen name="app_wide_toolbar_height">100dp</dimen>
+    <dimen name="file_list_item_height">70dp</dimen>
+    <dimen name="profile_diag_margin">16dp</dimen>
+</resources>

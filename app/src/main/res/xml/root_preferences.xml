@@ -1,0 +1,66 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/preferences_about">
+        <Preference
+            android:key="app_version"
+            android:title="@string/preferences_app_version"
+            android:summary="1.0.0"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="librealsense_version"
+            android:title="@string/preferences_lib_version"
+            android:summary="2.0.0"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="logcat"
+            android:title="Logcat"
+            android:icon="@drawable/ic_logcat_black_24dp">
+            <intent android:targetPackage="org.gtdev.tridomhcapture"
+                android:targetClass="org.gtdev.tridomhcapture.LogcatActivity"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/preferences_network">
+        <org.gtdev.tridomhcapture.ui.ServerConfDialog
+            android:key="server_address"
+            android:title="@string/preferences_server_conf"
+            android:defaultValue="192.168.43.100:7899" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/preferences_camera"
+        android:key="camera_category" >
+
+        <Preference
+            android:key="connect_notify"
+            android:title="@string/connect_a_realsense_camera"
+            android:selectable="false">
+        </Preference>
+
+<!--        <SwitchPreference-->
+<!--            android:defaultValue="true"-->
+<!--            android:key="camera_color"-->
+<!--            android:title="Color camera"/>-->
+
+<!--        <SwitchPreference-->
+<!--            android:defaultValue="true"-->
+<!--            android:key="camera_depth"-->
+<!--            android:title="Depth camera"-->
+<!--            app:allowDividerAbove="true"/>-->
+
+<!--        <SwitchPreference-->
+<!--            android:defaultValue="false"-->
+<!--            android:key="camera_infrared"-->
+<!--            android:title="Infrared camera"-->
+<!--            app:allowDividerAbove="true"/>-->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
